@@ -16,25 +16,24 @@ body {
     text-align: left;
     position: absolute;
     left: 20px;
-    top: 200px;
+    top: 400px;
     height: 300px;
-    width: 250px;
+    width: 400px;
     font-size: 20px;
-    color: white;
-    border: 3px;
-    border-color: rgb(245, 245, 247);
-    border-style: solid;
+    font-weight: bold;
+    color: rgb(236, 131, 131);
     padding: 10px;
 }
 
 /* Instructions Title */
 
 .imp {
-    position: absolute;
-    color: white;
+    position: absolute; 
+    font-weight: bold;
+    color: rgb(192, 93, 93);
     font-size: 20px;
-    top: 140px;
-    left: 70px;
+    top: 330px;
+    left: 30px;
 }
 
 
