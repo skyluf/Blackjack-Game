@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blackjack</title>
+</head>
+<body>
+        <p class="imp">--INSTRUCTIONS--</p>
+        <p id="rules" class="meow"> 
+        - You get 2 cards if you press start game.<br>
+        - They have a Value of a random number between 1 to 13.<br>
+        - If the sum of the two cards is 21, you win. <br>
+        - If the sum is less than 21, you get to draw a new card.<br>
+        - If the sum goes above 21, You Lose.<br>
+        - Press Restart To Restart.</p>
+    <div class="myDiv"><h1>Heyo! Welcome To Blackjack!</h1></div>
+    <p id="message-el" class="wan">Click on START GAME</p>
+    <p id="cards-el" class="cards">Cards: 0</p>
+    <p id="sum-el" class="sum">Sum: 0</p>
+    <script src="index.js"></script>
+        <div class="mahBtn">
+            <button onclick="startGame()">START GAME</button><br>
+            <button onclick="newCard()">NEW CARD</button> <br>
+            <button class="relol" onclick="window.location.reload();">RESTART</button>
+        </div>
+</body>
+</html>
